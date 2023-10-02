@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clima do Dia</title>
+</head>
+<body>
+    <section class="cabecalho">
+        <div class="header">
+            <img src="icons/icons8-cardápio.svg" alt="">
+            <input  id="pesquisa" class="pesquisa" type="text" placeholder="Digite sua cidade...">
+            <button id="search" style="color: black;">pesquisar</button>
+            <img src="icons/Planeta-terra48.png" alt="">
+        </div>
+    </section>
+    <section class="conteudo">
+        <div class="conteudo__elementos">
+            <span id="temperatura_span" class="conteudo__temperatura">38</span><span class="conteudo__temperatura">°C</span>
+            <h3 id="cidade">Ribeirão Preto</h3>
+            <h3 id="diaAtual">Sexta-feira</h3>
+            <h3>Sensação: <span id="sensacao">30°C</span></h3>
+            <h3>umidade: <span id="umidade">30</span><span>%</span></h3>
+            <h3>Vento: <span id="velocidadeVento">10</span><span>km/h</span></h3>
+        </div>
+        <img class="conteudo__imagem" src="icons/chuva.svg" alt="">
+    </section>
+    <section class="semana">
+        <ul>
+            <li class="semana_elemento">
+                <h3 class="semana__nome">sáb</h3>
+                <img class="semana__imagem" src="icons/chuva.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>
+            </li>
+            <li>
+                <h3 class="semana__nome">dom</h3>
+                <img class="semana__imagem" src="icons/ChuvaSol.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+            <li>
+                <h3 class="semana__nome">seg</h3>
+                <img class="semana__imagem" src="icons/rNublado.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+            <li>
+                <h3 class="semana__nome">ter</h3>
+                <img class="semana__imagem" src="icons/Ensolarado.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+            <li>
+                <h3 class="semana__nome">qua</h3>
+                <img class="semana__imagem" src="icons/Ensolarado.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+            <li>
+                <h3 class="semana__nome">qui</h3>
+                <img class="semana__imagem" src="icons/Tempestade.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+            <li>
+                <h3 class="semana__nome">sex</h3>
+                <img class="semana__imagem" src="icons/chuva.svg" alt="">
+                <div class="semana_informacao">31°C</div>
+                <div class="semana__minimo">19°C</div>
+                <div class="semana__porcentagem">
+                    <img class="semana__gota" src="icons/Gota.svg" alt="">
+                    <div class="semana__umidade">32%</div>
+                </div>    
+            </li>
+        </ul>
+    </section>
+
+
+
+
+
+
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
